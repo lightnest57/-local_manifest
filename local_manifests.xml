@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <!-- Trees -->
-        <project path="device/xiaomi/chime" name="Night-Raids-Reborn/device_xiaomi_chime13" remote="github" revision="spark" clone-depth="1" />
-        <project path="vendor/xiaomi/chime" name="chimeoss/vendor_xiaomi_chime" remote="gitlab" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="chimeoss/vendor_xiaomi_citrus" remote="gitlab" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/lime" name="chimeoss/vendor_xiaomi_lime" remote="gitlab" revision="lineage-20" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="hac4us06/kernel_xiaomi_chime" remote="github" revision="pyro" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+<!-- Trees -->
+  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="havoc" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 </manifest>
