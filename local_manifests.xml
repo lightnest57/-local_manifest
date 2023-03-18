@@ -5,11 +5,13 @@
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_packages_apps_ConfigCenter" />
   <remove-project name="android_vendor_havoc" />
+  <remove-project name="android_device_havoc_sepolicy" />
 <!-- Fork -->
   <project path="packages/apps/ConfigCenter" name="Night-Raids-Reborn/havoc_packages_apps_ConfigCenter" remote="github" revision="eleven" clone-depth="1" />
   <project path="packages/apps/Settings" name="Night-Raids-Reborn/havoc_packages_apps_Settings" remote="github" revision="eleven" clone-depth="1" />
   <project path="frameworks/base" name="Night-Raids-Reborn/havoc_frameworks_base" remote="github" revision="eleven" clone-depth="1" />
   <project path="vendor/havoc" name="Night-Raids-Reborn/android_vendor_havoc" remote="github" revision="eleven" clone-depth="1" />
+  <project path="device/havoc/sepolicy" name="Night-Raids-Reborn/android_device_havoc_sepolicy" remote="github" revision="eleven" clone-depth="1" />
   <project path="vendor/lawnchair" name="Night-Raids-Reborn/android_vendor_lawnchair" remote="github" revision="twelve" clone-depth="1" />
 <!-- Trees -->
   <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="havoc" clone-depth="1" />
