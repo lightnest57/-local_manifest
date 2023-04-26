@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+        
+<remote name="gitlab"
+        fetch="https://gitlab.com/" />
+
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="Night-Raids-Reborn/dt_chime13" remote="github" revision="cherish" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="chimeoss/vendor_xiaomi_chime" remote="gitlab" revision="lineage-20" clone-depth="1" />
