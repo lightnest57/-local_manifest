@@ -5,7 +5,7 @@
         fetch="https://gitlab.com/" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="Night-Raids-Reborn/dt_chime13" remote="github" revision="cherish" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="Night-Raids-Reborn/dt_chime13" remote="github" revision="derp" clone-depth="1" />
         <project path="vendor/xiaomi/chime" name="chimeoss/vendor_xiaomi_chime" remote="gitlab" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="chimeoss/vendor_xiaomi_citrus" remote="gitlab" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="chimeoss/vendor_xiaomi_lime" remote="gitlab" revision="lineage-20" clone-depth="1" />
