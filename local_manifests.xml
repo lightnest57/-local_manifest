@@ -3,6 +3,12 @@
         
 <remote name="gitlab"
         fetch="https://gitlab.com/" />
+        
+        <!-- Remove -->
+        <remove-project name="vendor_gms" />
+        
+        <!-- Fork -->
+        <project path="vendor/gms" name="darknius09/gapps-13" remote="gitlab" clone-depth="1" revision="tiramisu" />
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="Night-Raids-Reborn/dt_chime13" remote="github" revision="derp" clone-depth="1" />
