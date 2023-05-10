@@ -3,6 +3,9 @@
         
 <remote name="gitlab"
         fetch="https://gitlab.com/" />
+<remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="thirteen" />
         
         <!-- Remove -->
         <remove-project name="vendor_gms" />
@@ -12,9 +15,9 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="Night-Raids-Reborn/dt_chime13" remote="github" revision="derp" clone-depth="1" />
-        <project path="vendor/xiaomi/chime" name="chimeoss/vendor_xiaomi_chime" remote="gitlab" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="chimeoss/vendor_xiaomi_citrus" remote="gitlab" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/lime" name="chimeoss/vendor_xiaomi_lime" remote="gitlab" revision="lineage-20" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="pixel-devices-blobs" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
+        <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="pixel-devices-blobs" clone-depth="1" />
         <project path="kernel/xiaomi/chime" name="hac4us06/kernel_xiaomi_chime" remote="github" revision="pyro" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
