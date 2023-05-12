@@ -14,6 +14,6 @@
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="pixel-devices-blobs" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
         <project path="vendor/xiaomi/lime" name="vendor_xiaomi_lime" remote="pixel-devices-blobs" clone-depth="1" />
-        <project path="kernel/xiaomi/chime" name="hac4us06/kernel_xiaomi_chime" remote="github" revision="pyro" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6115" name="hac4us06/kernel_xiaomi_chime" remote="github" revision="pyro" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
