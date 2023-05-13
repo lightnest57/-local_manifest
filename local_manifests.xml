@@ -5,6 +5,9 @@
           revision="thirteen" />
         
         <!-- addon -->
+        <remove-project name="platform/external/zstd" />
+        <project path="external/zstd" name="LineageOS/android_external_zstd" remote="github" revision="lineage-20.0" clone-depth="1" />
+        
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="github" revision="thirteen" clone-depth="1" />
