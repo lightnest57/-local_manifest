@@ -5,7 +5,6 @@
           revision="thirteen" />
         
         <!-- addon -->
-#        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" clone-depth="1" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="github" revision="thirteen" clone-depth="1" />
