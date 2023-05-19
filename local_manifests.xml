@@ -3,8 +3,6 @@
         <remote name="pixel-devices-blobs"
           fetch="https://github.com/frstprjkt"
           revision="lineage-20" />
-        <remote name="gitlab"
-          fetch="https://gitlab.com/" />
         
         <!-- addon -->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" clone-depth="1" />
