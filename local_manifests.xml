@@ -3,6 +3,8 @@
         <remote name="pixel-devices-blobs"
           fetch="https://github.com/frstprjkt"
           revision="lineage-20" />
+        <remote name="gitlab"
+          fetch="https://gitlab.com/" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="github" revision="lineage-20" clone-depth="1" />
