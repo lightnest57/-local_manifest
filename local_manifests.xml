@@ -4,8 +4,12 @@
           fetch="https://github.com/PixelOS-Devices"
           revision="thirteen" />
         
+        <!-- rm -->
+        <remove-project name="RisingTechOSS/android_frameworks_base" />
+        
         <!-- addon -->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" clone-depth="1" />
+        <project path="frameworks/base" name="Night-Raids-Reborn/rising_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" remote="github" clone-depth="1" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="github" revision="rising" clone-depth="1" />
